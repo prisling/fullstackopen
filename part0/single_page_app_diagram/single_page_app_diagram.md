@@ -18,7 +18,7 @@ deactivate server
 Note right of browser: executes JS to fetch data
 browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
 activate server
-server->>browser: JSON-data file
+server->>browser: JSON-data file: [{"content": "njlkhlk", "date": "2024-12-30T02:05:10.214Z"}, {...
 deactivate server
 Note right of browser: callback to render notes
 ```
